@@ -1,1 +1,54 @@
 @import url('global.css');
+
+/* header start*/
+.header-top {
+    background-color: #A22C29;
+    padding: 18px 0;
+    color: #fff;
+}
+.header-top-row,
+.header-info {
+    display: flex;
+    align-items: center;
+}
+.header-info {
+    margin-left: auto;
+    column-gap: 25px;
+    align-items: center;
+}
+.header-info a{
+   transition: 0.5s ease; 
+}
+.header-info a:hover{
+    opacity: .8;
+    color: #A95351;
+}
+.header-info-item {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;    
+}
+/*.header-info-item a{
+    transition: 0.5s ease;
+}
+.header-info-item a:hover {
+    opacity: .8;
+}
+*/
+.header-info-icon img{
+    display: block;
+}
+.header-social {
+    display: flex;
+    column-gap: 22px;
+}
+.header-social a{
+    transition: 0.5s ease;
+}
+.header-social a:hover {
+    opacity: .8;
+}
+.header-social a img {
+    display: block;
+}
+/* header stop*/ 
